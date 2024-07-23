@@ -93,8 +93,8 @@ export default function App() {
 
   return (
     <SafeAreaView style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-      {/* <Button title="Line Login" onPress={doLineLogin} /> */}
-      <View style={{ height: '100%', width: '100%', backgroundColor: 'rgba(1,1,1,0.6)', position: 'absolute', zIndex: 1, opacity: 1 }}/>
+      <Button title="Line Login" onPress={doLineLogin} />
+      {/* <View style={{ height: '100%', width: '100%', backgroundColor: 'rgba(1,1,1,0.6)', position: 'absolute', zIndex: 1, opacity: 1 }}/>
       <View style={{ width: 400, justifyContent: 'center', alignItems: 'center' }}>
         <View style={{ flexDirection: 'row', width: 200, justifyContent: 'space-between', zIndex: 2 }}>
           <Button title="Move Right" onPress={doMoveRight} />
@@ -146,7 +146,7 @@ export default function App() {
            }}/>
           <Animated.View style={{ width: 200, backgroundColor: '#ffffff', borderRadius: 12, height: 65, marginLeft: animatedCurve }} />
         </View>
-      </View>
+      </View> */}
     </SafeAreaView>
   );
 }
